@@ -358,7 +358,7 @@ class MvStudentT(_QuadFormBase):
     ========  =============================================
     Support   :math:`x \in \mathbb{R}^k`
     Mean      :math:`\mu` if :math:`\nu > 1` else undefined
-    Variance  :math:`\frac{\nu}{\mu-2}\Sigma`
+    Variance  :math:`\frac{\nu}{\nu-2}\Sigma`
                   if :math:`\nu>2` else undefined
     ========  =============================================
 
